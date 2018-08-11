@@ -49,6 +49,14 @@ Links:
 
 - https://codelinks.pachanka.org/post/42559163809/awesome-window-manager-keyboard-shortcuts
 
+## AUR
+
+```
+git clone https://aur.archlinux.org/yay.git
+cd yay/
+makepkg -si
+```
+
 ## Laptop
 
 ### Battery level
