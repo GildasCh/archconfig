@@ -26,6 +26,7 @@ Packages:
 - `xf86-video-intel`
 - `mesa`
 - `vulkan-intel`
+- `arandr`
 
 `.xinitrc`:
 
