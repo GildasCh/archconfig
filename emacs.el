@@ -32,6 +32,7 @@
                      yaml-mode
                      multiple-cursors
                      nyan-mode
+                     markdown-mode
 					 ))
 (dolist (package package-list)
   (unless (package-installed-p package)
@@ -146,6 +147,9 @@
 (add-hook 'term-mode-hook (lambda()
                             (setq yas-dont-activate t)))
 
+; Markdown
+(setq markdown-command "/usr/bin/pandoc")
+
 ; Org mode config
 (require 'org)
 (define-key global-map "\C-cl" 'org-store-link)
@@ -184,4 +188,4 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(fixed-pitch ((t nil))))
