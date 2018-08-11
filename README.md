@@ -134,7 +134,7 @@ Copy [emacs.el](emacs.el) to `~/.emacs`
 ## Various packages
 
 ```
-unzip chromium
+unzip chromium htop git go pandoc
 ```
 
 AUR:
