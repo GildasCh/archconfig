@@ -115,8 +115,24 @@ Append to `~/.xbindkeysrc`
   XF86MonBrightnessUp
 ```
 
+## Fonts and customizations
+
+Fantasque font installation: download from https://github.com/belluzj/fantasque-sans/releases and:
+
+```
+unzip FantasqueSansMono-Normal.zip
+sudo mv OTF TTF Webfonts /usr/share/fonts/
+fc-cache
+```
+
+Copy [Xresources](Xresources) to `~/.Xresources`
+
 ## Emacs
 
-[.emacs config file](emacs.el)
+Copy [emacs.el](emacs.el) to `~/.emacs`
 
-Copy this file to `~/.emacs`
+## Various packages
+
+```
+unzip
+```

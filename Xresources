@@ -1,0 +1,72 @@
+! --- ~/.Xresources ------------------------------------------------------------
+    !xterm*faceName: Hack:style=Regular:size=10.5
+    xterm*faceName: Fantasque Sans Mono:style=Regular:size=10.5
+    xterm*font: 7x13
+
+    XTerm*metaSendsEscape: true
+
+    ! ------------------------------------------------------------------------------
+    ! --- generated with 4bit Terminal Color Scheme Designer -----------------------
+    ! ------------------------------------------------------------------------------
+    ! --- http://ciembor.github.com/4bit -------------------------------------------
+    ! ------------------------------------------------------------------------------
+
+    ! --- special colors ---
+
+    *background: #0d1926
+    *foreground: #d9e6f2
+
+    ! --- standard colors ---
+
+    ! black
+    *color0: #000000
+
+    ! bright_black
+    *color8: #2a2a2a
+
+    ! red
+    *color1: #9a283e
+
+    ! bright_red
+    *color9: #dd7c8f
+
+    ! green
+    *color2: #3e9a28
+
+    ! bright_green
+    *color10: #8fdd7c
+
+    ! yellow
+    *color3: #9a8328
+
+    ! bright_yellow
+    *color11: #ddca7c
+
+    ! blue
+    *color4: #283e9a
+
+    ! bright_blue
+    *color12: #7c8fdd
+
+    ! magenta
+    *color5: #83289a
+
+    ! bright_magenta
+    *color13: #ca7cdd
+
+    ! cyan
+    *color6: #289a83
+
+    ! bright_cyan
+    *color14: #7cddca
+
+    ! white
+    *color7: #808080
+
+    ! bright_white
+    *color15: #dedede
+
+
+    ! ------------------------------------------------------------------------------
+    ! --- end of terminal colors section -------------------------------------------
+    ! ------------------------------------------------------------------------------
