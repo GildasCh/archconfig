@@ -99,6 +99,34 @@ Section "InputClass"
 EndSection
 ```
 
+#### libinput-gestures
+
+Unofficial tool from https://github.com/bulletmark/libinput-gestures
+
+Install:
+
+```
+sudo pacman -S xdotool wmctrl
+git clone https://github.com/bulletmark/libinput-gestures.git
+cd libinput-gestures
+sudo make install
+```
+
+In `~/.config/libinput-gestures.conf`:
+
+```
+gesture swipe right xdotool key alt+Right
+gesture swipe left xdotool key alt+Left
+```
+
+Autostart, start, reload:
+
+```
+libinput-gestures-setup autostart
+libinput-gestures-setup start
+libinput-gestures-setup restart
+```
+
 ### Backlight
 
 Packages:
@@ -134,7 +162,7 @@ Copy [emacs.el](emacs.el) to `~/.emacs`
 ## Various packages
 
 ```
-unzip chromium htop git go pandoc
+unzip chromium htop git go pandoc python
 ```
 
 AUR:
