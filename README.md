@@ -159,6 +159,36 @@ Copy [Xresources](Xresources) to `~/.Xresources`
 
 Copy [emacs.el](emacs.el) to `~/.emacs`
 
+## Bachrc
+
+In `~/.bashrc`:
+
+```
+reset='\[\033[00m\]'
+blue='\[\033[01;34m\]'
+green='\[\033[01;32m\]'
+red='\[\033[01;31m\]'
+yellow='\[\033[01;33m\]'
+export PS1="${yellow}\u@\h${reset}: ${blue}\W${reset} \$ "
+
+export HISTSIZE=100000
+
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export TERM=xterm-256color
+
+export BROWSER="vivaldi-stable"
+export EDITOR="emacs"
+alias ls='ls --color'
+alias wifim='sudo wifi-menu'
+alias emacs='emacs -nw'
+
+export HISTCONTROL=ignoreboth
+export HISTIGNORE='history*'
+
+eval $(thefuck --alias)
+```
+
 ## Various packages
 
 ```
